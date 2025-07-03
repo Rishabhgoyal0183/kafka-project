@@ -37,5 +37,5 @@ A hands‑on Spring Boot sample demonstrating end‑to‑end Apache Kafka integr
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/<your‑org>/kafka-sample-project.git
+   git clone https://github.com/Rishabhgoyal0183/kafka-project.git
    cd kafka-sample-project
