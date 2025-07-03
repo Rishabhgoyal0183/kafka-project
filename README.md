@@ -29,7 +29,7 @@ A hands‑on Spring Boot sample demonstrating end‑to‑end Apache Kafka integr
 ## Prerequisites
 
 - **Java 17+**  
-- **Gradle ** (or Maven 3.6+ if you prefer)  
+- **Gradle** (or Maven 3.6+ if you prefer)  
 - **Apache Kafka 3.x** (broker + ZooKeeper)  
 - **Git**  
 
