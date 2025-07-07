@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class KafkaServiceImpl implements KafkaService  {
+public class KafkaServiceImpl implements KafkaService {
 
     private final MessageProducer messageProducer;
 
@@ -17,7 +17,7 @@ public class KafkaServiceImpl implements KafkaService  {
 
     @Override
     public String sendMessage(String message) {
-        for (int i=1 ; i<=100 ; i++){
+        for (int i = 1; i <= 100; i++) {
             messageProducer.sendMessage(topic, message + " " + i);
         }
         return "Messages sent successfully. ";
